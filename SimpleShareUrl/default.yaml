@@ -1,0 +1,29 @@
+# Hello friend
+# You should not edit this.
+
+allowed:
+  url        : &url=
+  title      : &title=
+  picture    : &picture=
+  description: &description=
+  text       : &text=
+  quote      : &quote=
+  via        : &via=
+  related    : &related=
+  hashtags   : &hashtags=
+  summary    : &summary=
+  source     : &source=
+
+endpoints:
+  facebook   : https://www.facebook.com/sharer/sharer.php?u=
+  twitter    : https://twitter.com/share?url=
+  linkedin   : https://www.linkedin.com/shareArticle?url=
+  googleplus : https://plus.google.com/share?url=
+  pinterest  : https://pinterest.com/pin/create/button/?url=
+
+msg:
+  error: "Error"
+  no_url: "You must define an url ( ex: LinkSharer|facebook url='https://statamic.com' )"
+  no_method: "You must define a network ( ex: LinkSharer|facebook OR LinkSharer network='facebook' )"
+  endpoint_do_not_exists: "This network doesn't exists."
+  network_is_not_valid: "You must define a valid network."
