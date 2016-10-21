@@ -100,5 +100,4 @@ Exemple, in Statamic Template:
 
 ---
 
-This plugin is inspired by [jSocial](https://github.com/jrmd/jSocial)
 Copyright © 2016 [OLBA Bureau](http://olba-bureau.com)
