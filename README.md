@@ -32,11 +32,11 @@ https://www.facebook.com/sharer/sharer.php?u=github.com&title=Title
 
 ```
 
-**Alternative syntax, with the network as a method/modifier**
+**Alternative syntax, with the network as a method**
 
 ```html
 
-{{ simple_share_url|facebook url='https://github.com title='Title' }}
+{{ simple_share_url:facebook url='https://github.com title='Title' }}
 
 ```
 
@@ -44,7 +44,7 @@ https://www.facebook.com/sharer/sharer.php?u=github.com&title=Title
 
 ```html
 
-<a target="_blank" href="{{ simple_share_url|facebook url=current_url title=title }}">Share on Facebook</a>
+<a target="_blank" href="{{ simple_share_url:facebook url=current_url title=title }}">Share on Facebook</a>
 
 ```
 
@@ -62,7 +62,7 @@ Exemple, in Statamic Template:
 
 ```html
 	
-<a target="_blank" href="{{ simple_share_url|facebook url=current_url title=title picture=image_field|url description=description_field quote=quote_field }}">Share on Facebook</a>
+<a target="_blank" href="{{ simple_share_url:facebook url=current_url title=title picture=image_field|url description=description_field quote=quote_field }}">Share on Facebook</a>
 
 ```
 
