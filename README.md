@@ -20,7 +20,7 @@ Statamic 2 Addon. Add a new configurable Template Tag who generates a sharing UR
 
 ```html
 
-{{ simple_share_url network='facebook' url='https://github.com title='Title' }}
+{{ simple_share_url network='facebook' url='https://github.com' title='Title' }}
 
 ```
 
@@ -36,7 +36,7 @@ https://www.facebook.com/sharer/sharer.php?u=github.com&title=Title
 
 ```html
 
-{{ simple_share_url:facebook url='https://github.com title='Title' }}
+{{ simple_share_url:facebook url='https://github.com' title='Title' }}
 
 ```
 
