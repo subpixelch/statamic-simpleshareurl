@@ -1,4 +1,4 @@
-![Simple Share Url for Statamic 2](https://github.com/OLBA-Bureau/statamic-simpleshareurl/raw/master/SimpleShareUrl/resources/banner.jpg)
+![Simple Share Url for Statamic 2](https://github.com/mvdt/statamic-simpleshareurl/raw/master/SimpleShareUrl/resources/banner.jpg)
 
 # Simple Share Url for Statamic 2
 
@@ -100,4 +100,4 @@ Exemple, in Statamic Template:
 
 ---
 
-Copyright © 2016 [OLBA Bureau](http://olba-bureau.com)
+Copyright © 2016 [Matthieu Vu Duy Try](http://olba-bureau.com)
