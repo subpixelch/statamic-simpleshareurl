@@ -1,6 +1,6 @@
-name: Simple Share URL
+name: Simple Share Url
 version: 1.0.0
 description: Statamic 2 Addon. Add a new configurable Template Tag who generates a sharing URL for Social Networks.
-url: https://github.com/OLBA-Bureau/statamic-simpleshareurl
+url: https://github.com/mvdt/statamic-simpleshareurl
 developer: Matthieu Vu Duy Try
 developer_url: http://olba-bureau.com
