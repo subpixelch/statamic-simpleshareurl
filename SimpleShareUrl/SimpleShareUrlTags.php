@@ -114,7 +114,7 @@ class SimpleShareUrlTags extends Tags
 				break;
 
 			default:
-				$link = "<code>{$this->getConfig('msg')['network_is_not_valid']} ({$params['network']} is not valid)</code>";
+				$link = "<code>{$this->getConfig('msg')['no_network']} ({$params['network']} is not valid)</code>";
 				break;
 		}
 
