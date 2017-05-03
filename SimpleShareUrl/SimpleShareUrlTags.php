@@ -92,7 +92,7 @@ class SimpleShareUrlTags extends Tags
 
 			case 'linkedin':
 				$link =
-					"{$this->getConfig('endpoints')['linked']}
+					"{$this->getConfig('endpoints')['linkedin']}
 					{$params['url']}
 					{$params['title']}
 					{$params['summary']}
